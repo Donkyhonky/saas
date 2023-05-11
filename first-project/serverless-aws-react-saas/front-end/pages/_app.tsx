@@ -2,7 +2,8 @@ import type { AppProps } from 'next/app';
 import { ChakraProvider } from '@chakra-ui/react';
 import { ApolloProvider } from '@apollo/client';
 import { useEffect } from 'react';
-import Amplify, { Auth } from 'aws-amplify';
+import {Amplify, Auth} from 'aws-amplify';
+
 import { createAppSyncClient } from '../appsync/AppSyncClient';
 import amplifyConfig from '../deployment/amplify-config';
 

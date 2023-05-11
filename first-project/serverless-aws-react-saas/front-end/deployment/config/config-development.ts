@@ -1,7 +1,7 @@
 /**
  * Add your hosted dev URL here
  */
-const HOSTED_URL = 'https://dev.domain.com';
+const HOSTED_URL = '	https://eu-central-1.admin.amplifyapp.com/admin/login?appId=d235w4yxmyo91t&backendEnvironmentName=dev';
 
 const configDevelopment = {
   HOSTED_URL,

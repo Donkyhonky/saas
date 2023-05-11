@@ -2,14 +2,17 @@ projects:
   appsync-b5557e3:
     schemaPath: src/graphql/schema.json
     includes:
-      - /graphql/queries_mutations_subscriptions/graphtest.ts
+      - /graphql/queries_mutations_scripts/tobenamed.ts
     excludes:
       - ./amplify/**
     extensions:
       amplify:
         codeGenTarget: typescript
         generatedFileName: /graphql/API.ts
-        docsFilePath: /graphql/queries_mutations_subscriptions
+        docsFilePath: /graphql/queries_mutations_scripts
         region: eu-central-1
         apiId: 32yv5rs3szhjhejozfb2lys47u
         maxDepth: 4
+extensions:
+  amplify:
+    version: 3
