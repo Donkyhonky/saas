@@ -30,7 +30,7 @@ function App({ Component, pageProps, router }: AppProps) {
   useEffect(() => {
     getUserSession();
   }, []);
-
+//lol
   return (
     <ChakraProvider>
       <ApolloProvider client={createAppSyncClient(validateUserSession)}>
